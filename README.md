@@ -54,7 +54,7 @@ The workflow is designed to be integrated into R-IOSUITE.
       - 0: little_or_none
       - 1: mild
       - 2: severe
-  - `./resources/twitter-datasets/2018-aude-flood` contains a small dataset collected from [X(Twitter)](https://twitter.com) during 2018 Aude Flood.
+  - `./resources/twitter-datasets/2018-aude-flood` contains a small dataset collected from [X (Twitter)](https://twitter.com) during 2018 Aude Flood.
     - These datasets are used to test the image processing workflow and build the demo.
     - Raw data of `2018-aude-flood-tweets.json` are provided by [VISOV](https://www.visov.org/).
     - Raw data of `2018-aude-flood-images-from-diego-kozlowski.json` are provided by an [academic article](https://www.sciencedirect.com/science/article/pii/S0306457320300650?via%3Dihub).
@@ -68,5 +68,6 @@ The workflow is designed to be integrated into R-IOSUITE.
 - `./demo`
 
   - Provides a jupyter notebook that can be regard as a demo of 2018 Aude Flood.
+
 
 
