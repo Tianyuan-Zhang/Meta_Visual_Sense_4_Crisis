@@ -32,8 +32,8 @@ The workflow is designed to be integrated into R-IOSUITE.
 - `./resources/`
   - `./resources/neural-networks/` contains four pre-trained neural networks to perform image classification.
     - These networks are based on [EfficientNet](https://arxiv.org/abs/1905.11946) and implemented with [EfficientNet-PyTorch](https://github.com/lukemelas/EfficientNet-PyTorch)
-    - These networks are fine-tuned using the [crisis image benchmark dataset](https://crisisnlp.qcri.org/crisis-image-datasets-asonam20).
-      - More information about the different tasks and corresponding labels can be found in this [link](https://crisisnlp.qcri.org/crisis-image-datasets-asonam20).
+    - These networks are fine-tuned using the [MEDIC dataset](https://crisisnlp.qcri.org/medic/).
+      - More information about the different tasks and corresponding labels can be found in this [link](https://crisisnlp.qcri.org/medic/).
     - The `informative` network will classify images into 2 classes:
       - 0: informative
       - 1: not_informative
@@ -66,4 +66,5 @@ The workflow is designed to be integrated into R-IOSUITE.
 - `./test`
   - Provides several jupyter notebooks to test the functions in `./src`.
 - `./demo`
+
   - Provides a jupyter notebook that can be regard as a demo of 2018 Aude Flood.
