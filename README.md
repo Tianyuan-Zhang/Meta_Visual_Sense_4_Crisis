@@ -8,17 +8,17 @@ The workflow is designed to be integrated into R-IOSUITE.
 
 ## 1. Setup
 
-- Install [R-IOSUITE](https://research-gi.mines-albi.fr/display/RIOSUITE/R-IOSuite+Home)
+- Install [R-IOSUITE](https://r-iosuite.atlassian.net/wiki/spaces/RIOSUITE/overview?mode=global)
   - Both the `R-IOSUITE Standalone` and the `CrizInnov Connector` should be installed at first.
 - Connect R-IOSUITE with Neo4j
-  - Follow the guidance: [How to connect R-IOSUITE with Neo4j](https://research-gi.mines-albi.fr/display/RIOSUITE/How+to+connect+Riosuite+with+Neo4j)
+  - Follow the guidance: [How to connect R-IOSUITE with Neo4j](https://r-iosuite.atlassian.net/wiki/spaces/RIOSUITE/pages/495420/How+to+connect+Riosuite+with+Neo4j)
 - Create Python environment via conda
   - `conda env create -f environment.yml`
 
 ## 2. Run the demo
 
 - Start Neo4j Server
-  - Follow the guidance: [How to connect R-IOSUITE with Neo4j](https://research-gi.mines-albi.fr/display/RIOSUITE/How+to+connect+Riosuite+with+Neo4j)
+  - Follow the guidance: [How to connect R-IOSUITE with Neo4j](https://r-iosuite.atlassian.net/wiki/spaces/RIOSUITE/pages/495420/How+to+connect+Riosuite+with+Neo4j)
 - Start R-IOSUITE
   - Both the `R-IOSUITE Standalone` and the `CrizInnov Connector`.
 - Load the `Aude Flooding` use case in R-IOSUITE
@@ -68,3 +68,4 @@ The workflow is designed to be integrated into R-IOSUITE.
 - `./demo`
 
   - Provides a jupyter notebook that can be regard as a demo of 2018 Aude Flood.
+
